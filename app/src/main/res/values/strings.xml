@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Business Card</string>
+    <string name="label_business_card">Cartão de Visita</string>
+    <string name="label_description_new_card">Criar um novo Cartão</string>
+    <string name="label_name">Nome: </string>
+    <string name="label_phone">Telefone:</string>
+    <string name="label_email">E-mail:</string>
+    <string name="label_company">Empresa:</string>
+    <string name="label_color">Cor:</string>
+    <string name="label_confirm">Confirmar</string>
+    <string name="label_show_sucess">Cartão cadastrado com sucesso!</string>
+    <string name="label_share">Compartilhar</string>
+    <string name="home_fragment_placeholder">Nenhum cartão gravado ainda.</string>
+    <string name="add_card_placeholder">This is Add Card Fragment</string>
+    <string name="nome_placeholder">Johnny Appleseed</string>
+    <string name="telefone_placeholder">(41) 2222 4444</string>
+    <string name="email_placeholder">johnny@appleseed.org</string>
+    <string name="empresa_placeholder">Appleseed LLC</string>
+    <string name="dialog_delete_msg">Tu quer mesmo apagar esse cartão? Se apagar não tem volta.</string>
+    <string name="label_no">Não</string>
+    <string name="label_yes">Sim</string>
+    <string name="description_add_card_fragment">Adicionar um cartão</string>
+    <string name="dialog_title_delete">Apagar cartão</string>
+    <string name="description_edit_card_fragment">Editar cartão</string>
+    <string name="label_grey">Cinza</string>
+    <string name="label_pink">Rosa</string>
+    <string name="label_blue">Azul</string>
+    <string name="label_brick">Brick</string>
+    <string name="label_ochre">Ochre</string>
+    <string name="label_acqua">Acqua</string>
+</resources>

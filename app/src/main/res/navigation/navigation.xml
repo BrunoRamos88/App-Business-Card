@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.br.appbusinesscard2.ui.home.HomeFragment"
+        android:label="home_fragment"
+        tools:layout="@layout/home_fragment" >
+
+        <action
+            android:id="@+id/navToAddCard"
+            app:destination="@id/addCardFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popUpToInclusive="false" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addCardFragment"
+        android:name="com.br.appbusinesscard2.ui.addcard.AddCardFragment"
+        android:label="add_card_fragment"
+        tools:layout="@layout/fragment_add_businesscard">
+
+        <argument
+            android:name="cardId"
+            app:argType="Long"
+            android:defaultValue="0L" />
+        <argument
+            android:name="businessCard"
+            app:argType="com.br.appbusinesscard.domain.BusinessCard"
+            app:nullable="true"/>
+    </fragment>
+
+    <action
+        android:id="@+id/return_homeFragment"
+        app:destination="@id/homeFragment" />
+
+
+</navigation>
